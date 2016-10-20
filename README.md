@@ -1,5 +1,6 @@
 ## Site Structure:
 
+```
 _includes/				-> page fragments that compose your layout
 _layouts/				-> layouts of the page
 _posts/					-> posts
@@ -15,6 +16,8 @@ js/
  └── prod/				-> js files after compiling (with browserify)
 _config.yml  			-> configuration file of jekyll
 index.html 				-> index of the page
+
+```
 
 ## Setup:
 
