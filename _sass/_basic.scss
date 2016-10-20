@@ -1,0 +1,16 @@
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: #999;
+  
+}
+
+header, footer{
+	width: 100%;
+
+	padding: 30px;
+
+	background-color: #333;
+	color: #ccc;
+	text-align: center;
+}
