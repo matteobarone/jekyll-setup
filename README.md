@@ -1,4 +1,4 @@
-## Site Structure:
+## Structure:
 
 ```
 _includes/          -> page fragments that compose your layout
@@ -15,7 +15,7 @@ js/
  ├── dev/           -> js files during dev phase
  └── prod/          -> js files after compiling (with browserify)
 _config.yml         -> configuration file of jekyll
-index.html          -> index of the page
+index.md            -> index of the page
 
 ```
 
@@ -24,4 +24,9 @@ index.html          -> index of the page
 - install ruby
 - install node
 - install gulp
-- install all dependency for tasks ( npm install --save-dev <package_name_1> .. <package_name_N> )
+- install all dependencies for tasks ( `npm install --save-dev <package_name_1> <package_name_2> <package_name_N>` )
+
+## Build:
+
+$ gulp dev          -> build development environment
+$ gulp prod         -> build production release
