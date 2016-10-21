@@ -16,7 +16,6 @@ js/
  └── prod/          -> js files after compiling (with browserify)
 _config.yml         -> configuration file of jekyll
 index.md            -> index of the page
-
 ```
 
 ## Setup:
@@ -31,5 +30,4 @@ index.md            -> index of the page
 ```
 $ gulp dev          -> build development environment
 $ gulp prod         -> build production release
-
 ```
