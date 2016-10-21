@@ -28,5 +28,8 @@ index.md            -> index of the page
 
 ## Build:
 
+```
 $ gulp dev          -> build development environment
 $ gulp prod         -> build production release
+
+```
