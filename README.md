@@ -1,3 +1,8 @@
+## Jekyll + Gulp setup
+
+Is a starting point for static websites with [Jekyll](https://jekyllrb.com/) and [Gulp](http://gulpjs.com/)
+
+
 ## Structure:
 
 ```
