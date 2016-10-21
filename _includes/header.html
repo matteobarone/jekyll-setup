@@ -1,1 +1,16 @@
-<header>HEADER</header>
+<header>
+	<ul>
+		<li>
+	        <a href="/"> Home </a>
+	    </li>
+		{% for page in site.pages %}
+		    {% if page.title and page.title != "Jekyll Setup" %}
+		    <li>
+		        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+		    </li>
+		    {% endif %}
+		{% endfor %}
+	</ul>
+	
+
+</header>
