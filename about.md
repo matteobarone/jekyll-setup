@@ -43,7 +43,7 @@ $ gulp dev          -> build development environment
 $ gulp prod         -> build production release
 ```
 
-When you bild for production, remember to put:
+When you build for production, remember to put:
 ```
 sass:
   style: compressed
