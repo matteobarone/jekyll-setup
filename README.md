@@ -26,9 +26,8 @@ index.md            -> index of the page
 ## Setup:
 
 - install ruby
-- install node
-- install gulp
-- install all dependencies for tasks ( `npm install --save-dev <package_name_1> <package_name_2> <package_name_N>` )
+- install npm
+- run `npm install`
 
 ## Build:
 
