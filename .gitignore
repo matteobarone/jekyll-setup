@@ -1,4 +1,8 @@
-_site
-node_modules
+_site/
+node_modules/
+.idea/
+.jekyll-cache/
 .sass-cache
 .jekyll-metadata
+js/bundle.js
+js/bundle.js.map

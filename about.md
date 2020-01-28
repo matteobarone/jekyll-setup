@@ -19,12 +19,8 @@ _sass/              -> scss files to be compiled
 _site/              -> final output: after compile, the result will be here
 css/
  └── main.scss      -> main css file
-gulp/
- └── tasks/
-      └─── task.js  -> gulp tasks for compile
 js/
- ├── dev/           -> js files during dev phase
- └── prod/          -> js files after compiling (with browserify)
+ └── index.js       -> js entry point
 _config.yml         -> configuration file of jekyll
 index.md            -> index of the page
 ```
@@ -39,8 +35,8 @@ index.md            -> index of the page
 ## Build:
 
 ```
-$ gulp dev          -> build development environment
-$ gulp prod         -> build production release
+$ npm start          -> build development environment
+$ npm run build      -> build production release
 ```
 
 When you build for production, remember to put:
@@ -49,5 +45,3 @@ sass:
   style: compressed
 ```
 in your _config.yml file, to minify the css file.
-
-

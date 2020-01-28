@@ -13,12 +13,8 @@ _sass/              -> scss files to be compiled
 _site/              -> final output: after compile, the result will be here
 css/
  └── main.scss      -> main css file
-gulp/
- └── tasks/
-      └─── task.js  -> gulp tasks for compile
 js/
- ├── dev/           -> js files during dev phase
- └── prod/          -> js files after compiling (with browserify)
+ └── index.js       -> js entry point
 _config.yml         -> configuration file of jekyll
 index.md            -> index of the page
 ```
@@ -26,14 +22,15 @@ index.md            -> index of the page
 ## Setup:
 
 - install ruby
-- install npm
-- run `npm install`
+- install node
+- install gulp
+- install all dependencies for tasks ( `npm install --save-dev <package_name_1> <package_name_2> <package_name_N>` )
 
 ## Build:
 
 ```
-$ gulp dev          -> build development environment
-$ gulp prod         -> build production release
+$ npm start          -> build development environment
+$ npm run build      -> build production release
 ```
 
 When you build for production, remember to put:
